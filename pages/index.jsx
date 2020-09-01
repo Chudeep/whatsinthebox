@@ -2,19 +2,14 @@
 /* -----------------------  Globals ------------------ */
 import React from 'react';
 
-/* -----------------------  Material UI ------------------ */
-import Typography from '@material-ui/core/Typography';
+/* -----------------------  Child Components ------------------ */
+import Header from '../src/components/Header';
 
 /* -----------------------  Components ------------------ */
-const Index = () => {
-  const title = "What's in the box";
-  return (
-    <>
-      <Typography variant="h3">
-        {title}
-      </Typography>
-    </>
-  );
-};
+const Index = () => (
+  <>
+    <Header />
+  </>
+);
 
 export default Index;
