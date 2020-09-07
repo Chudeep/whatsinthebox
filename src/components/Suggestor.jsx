@@ -13,7 +13,7 @@ import { withStyles } from '@material-ui/styles';
 import { Shuffle } from 'mdi-material-ui';
 
 /* -----------------------  Utils ------------------ */
-import { moviesList } from '../utils';
+import { movies } from '../utils';
 
 /* -----------------------  Styles ------------------ */
 const styles = (theme) => ({
@@ -38,14 +38,13 @@ const Suggestor = (props: Props) => {
   const [selectedMovie, setSelectedMovie] = useState('none');
 
   const generateRandomMovie = () => {
-    const randomNumber = (Math.floor(Math.random() * 1000)) % moviesList.length;
-    console.log(randomNumber);
-    return moviesList[randomNumber];
+    const randomNumber = (Math.floor(Math.random() * 1000)) % movies.length;
+    return movies[randomNumber];
   };
 
   const handleButtonClick = () => {
     const randomMovie = generateRandomMovie();
-    setSelectedMovie(randomMovie);
+    setSelectedMovie(randomMovie.Name);
   };
 
   return (
