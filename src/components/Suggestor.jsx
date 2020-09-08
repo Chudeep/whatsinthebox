@@ -36,6 +36,7 @@ const Suggestor = (props: Props) => {
     classes,
   } = props;
   const [selectedMovie, setSelectedMovie] = useState('none');
+  const [selectedYear, setSelectedYear] = useState('none');
 
   const generateRandomMovie = () => {
     const randomNumber = (Math.floor(Math.random() * 1000)) % movies.length;
@@ -45,6 +46,7 @@ const Suggestor = (props: Props) => {
   const handleButtonClick = () => {
     const randomMovie = generateRandomMovie();
     setSelectedMovie(randomMovie.Name);
+    setSelectedYear(randomMovie.Year);
   };
 
   return (
@@ -64,7 +66,7 @@ const Suggestor = (props: Props) => {
         Select Random Movie
         <Shuffle />
       </Button>
-      {`The movie from the box is ${selectedMovie}`}
+      {`The movie from the box is ${selectedMovie} (${selectedYear})`}
     </Box>
   );
 };
