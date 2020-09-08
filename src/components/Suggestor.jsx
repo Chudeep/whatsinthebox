@@ -37,7 +37,7 @@ const Suggestor = (props: Props) => {
   } = props;
   const [selectedMovie, setSelectedMovie] = useState('none');
   const [selectedYear, setSelectedYear] = useState('none');
-  const [selectedLink, setSelectedLink] = useState('none');
+  const [selectedLink, setSelectedLink] = useState(null);
   const [buttonState, setButtonState] = useState(true);
 
   const generateRandomMovie = () => {
