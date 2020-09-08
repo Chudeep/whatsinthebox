@@ -37,6 +37,8 @@ const Suggestor = (props: Props) => {
   } = props;
   const [selectedMovie, setSelectedMovie] = useState('none');
   const [selectedYear, setSelectedYear] = useState('none');
+  const [selectedLink, setSelectedLink] = useState('none');
+  const [buttonState, setButtonState] = useState(true);
 
   const generateRandomMovie = () => {
     const randomNumber = (Math.floor(Math.random() * 1000)) % movies.length;
@@ -47,6 +49,8 @@ const Suggestor = (props: Props) => {
     const randomMovie = generateRandomMovie();
     setSelectedMovie(randomMovie.Name);
     setSelectedYear(randomMovie.Year);
+    setSelectedLink(randomMovie['Letterboxd URI']);
+    setButtonState(false);
   };
 
   return (
@@ -67,6 +71,16 @@ const Suggestor = (props: Props) => {
         <Shuffle />
       </Button>
       {`The movie from the box is ${selectedMovie} (${selectedYear})`}
+      <br/><br/>
+      <a href={selectedLink} target='_blank'>
+        <Button disabled={buttonState}
+          variant="contained"
+          color="secondary"
+          className={classes.button}
+        >
+          Get Details
+        </Button>
+      </a>
     </Box>
   );
 };
