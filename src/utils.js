@@ -530,7 +530,7 @@ const movies = [
     letterboxdLink: 'https://letterboxd.com/film/the-farewell-2019/',
   },
   {
-    name: 'Once Upon a Time… in Hollywood',
+    name: 'Once Upon a Time... in Hollywood',
     year: 2019,
     letterboxdLink: 'https://letterboxd.com/film/once-upon-a-time-in-hollywood/',
   },
