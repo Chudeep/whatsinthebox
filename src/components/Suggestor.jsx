@@ -71,9 +71,9 @@ const Suggestor = (props: Props) => {
         <Shuffle />
       </Button>
       {`The movie from the box is ${selectedMovie} (${selectedYear})`}
-      <br/><br/>
-      <a href={selectedLink} target='_blank'>
-        <Button disabled={buttonState}
+      <a href={selectedLink} target="_blank" rel="noreferrer noopener">
+        <Button
+          disabled={buttonState}
           variant="contained"
           color="secondary"
           className={classes.button}
