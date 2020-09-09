@@ -49,9 +49,9 @@ const Suggestor = (props: Props) => {
   const handleButtonClick = () => {
     const randomMovie = generateRandomMovie();
     setSelectedMovie({
-      name: randomMovie.Name,
-      year: randomMovie.Year,
-      link: randomMovie['Letterboxd URI'],
+      name: randomMovie.name,
+      year: randomMovie.year,
+      link: randomMovie.letterboxdLink,
     });
   };
 
