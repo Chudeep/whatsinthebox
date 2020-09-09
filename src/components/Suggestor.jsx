@@ -35,10 +35,11 @@ const Suggestor = (props: Props) => {
   const {
     classes,
   } = props;
-  const [selectedMovie, setSelectedMovie] = useState('none');
-  const [selectedYear, setSelectedYear] = useState('none');
-  const [selectedLink, setSelectedLink] = useState(null);
-  const [buttonState, setButtonState] = useState(true);
+  const [selectedMovie, setSelectedMovie] = useState({
+    name: 'none',
+    year: 'none',
+    link: null,
+  });
 
   const generateRandomMovie = () => {
     const randomNumber = (Math.floor(Math.random() * 1000)) % movies.length;
@@ -47,10 +48,11 @@ const Suggestor = (props: Props) => {
 
   const handleButtonClick = () => {
     const randomMovie = generateRandomMovie();
-    setSelectedMovie(randomMovie.Name);
-    setSelectedYear(randomMovie.Year);
-    setSelectedLink(randomMovie['Letterboxd URI']);
-    setButtonState(false);
+    setSelectedMovie({
+      name: randomMovie.Name,
+      year: randomMovie.Year,
+      link: randomMovie['Letterboxd URI'],
+    });
   };
 
   return (
@@ -70,10 +72,10 @@ const Suggestor = (props: Props) => {
         Select Random Movie
         <Shuffle />
       </Button>
-      {`The movie from the box is ${selectedMovie} (${selectedYear})`}
-      <a href={selectedLink} target="_blank" rel="noreferrer noopener">
+      {`The movie from the box is ${selectedMovie.name} (${selectedMovie.year})`}
+      <a href={selectedMovie.link} target="_blank" rel="noreferrer noopener">
         <Button
-          disabled={buttonState}
+          disabled={!selectedMovie.link}
           variant="contained"
           color="secondary"
           className={classes.button}
