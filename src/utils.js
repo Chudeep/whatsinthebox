@@ -675,7 +675,7 @@ const movies = [
     letterboxdLink: 'https://letterboxd.com/film/aladdin-2019/',
   },
   {
-    name: 'WALL·E',
+    name: 'WALLï¿½E',
     year: 2008,
     letterboxdLink: 'https://letterboxd.com/film/walle/',
   },
@@ -1435,7 +1435,7 @@ const movies = [
     letterboxdLink: 'https://letterboxd.com/film/ready-player-one/',
   },
   {
-    name: 'Saamy²',
+    name: 'Saamyï¿½',
     year: 2018,
     letterboxdLink: 'https://letterboxd.com/film/saamy-2018/',
   },
@@ -1713,6 +1713,476 @@ const movies = [
     name: 'Portrait of a Lady on Fire',
     year: 2019,
     letterboxdLink: 'https://letterboxd.com/film/portrait-of-a-lady-on-fire/',
+  },
+  {
+    name: 'The Soloist',
+    year: 2009,
+    letterboxdLink: 'https://letterboxd.com/film/the-soloist/',
+  },
+  {
+    name: 'The Hunger Games: Mockingjay - Part 2',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/the-hunger-games-mockingjay-part-2/',
+  },
+  {
+    name: 'Avatar',
+    year: 2009,
+    letterboxdLink: 'https://letterboxd.com/film/avatar/',
+  },
+  {
+    name: 'Gravity',
+    year: 2013,
+    letterboxdLink: 'https://letterboxd.com/film/gravity-2013/',
+  },
+  {
+    name: 'Jaws',
+    year: 1975,
+    letterboxdLink: 'https://letterboxd.com/film/jaws/',
+  },
+  {
+    name: 'Enola Holmes',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/enola-holmes/',
+  },
+  {
+    name: 'The Social Dilemma',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/the-social-dilemma/',
+  },
+  {
+    name: 'The Old Guard',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/the-old-guard-2020/',
+  },
+  {
+    name: 'Ant-Man',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/ant-man/',
+  },
+  {
+    name: 'Avengers: Age of Ultron',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/avengers-age-of-ultron/',
+  },
+  {
+    name: 'Putham Pudhu Kaalai',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/putham-pudhu-kaalai/',
+  },
+  {
+    name: 'Soorarai Pottru',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/soorarai-pottru/',
+  },
+  {
+    name: 'Mookuthi Amman',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/mookuthi-amman/',
+  },
+  {
+    name: 'Greenland',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/greenland/',
+  },
+  {
+    name: 'Biskoth',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/biskoth/',
+  },
+  {
+    name: 'Manne No 13',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/manne-no-13/details/',
+  },
+  {
+    name: 'Tenet',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/tenet/',
+  },
+  {
+    name: 'Wonder Woman 1984',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/wonder-woman-1984/',
+  },
+  {
+    name: 'Soul',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/soul-2020/',
+  },
+  {
+    name: 'Home Alone',
+    year: 1990,
+    letterboxdLink: 'https://letterboxd.com/film/home-alone/',
+  },
+  {
+    name: 'Home Alone 2: Lost in New York',
+    year: 1992,
+    letterboxdLink: 'https://letterboxd.com/film/home-alone-2-lost-in-new-york/',
+  },
+  {
+    name: 'The Karate Kid',
+    year: 1984,
+    letterboxdLink: 'https://letterboxd.com/film/the-karate-kid/',
+  },
+  {
+    name: 'Honest Thief',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/honest-thief/',
+  },
+  {
+    name: 'Master',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/master-2021/',
+  },
+  {
+    name: 'Chemical Hearts',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/chemical-hearts/',
+  },
+  {
+    name: 'The Negotiation',
+    year: 2018,
+    letterboxdLink: 'https://letterboxd.com/film/the-negotiation/',
+  },
+  {
+    name: 'The Grand Budapest Hotel',
+    year: 2014,
+    letterboxdLink: 'https://letterboxd.com/film/the-grand-budapest-hotel/',
+  },
+  {
+    name: 'Drishyam 2',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/drishyam-2/',
+  },
+  {
+    name: 'Justice League: The Flashpoint Paradox',
+    year: 2013,
+    letterboxdLink: 'https://letterboxd.com/film/justice-league-the-flashpoint-paradox/',
+  },
+  {
+    name: 'Son of Batman',
+    year: 2014,
+    letterboxdLink: 'https://letterboxd.com/film/son-of-batman/',
+  },
+  {
+    name: "Zack Snyder's Justice League",
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/zack-snyders-justice-league/',
+  },
+  {
+    name: 'Raya and the Last Dragon',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/raya-and-the-last-dragon/',
+  },
+  {
+    name: 'Next',
+    year: 2007,
+    letterboxdLink: 'https://letterboxd.com/film/next/',
+  },
+  {
+    name: 'Face/Off',
+    year: 1997,
+    letterboxdLink: 'https://letterboxd.com/film/face-off/',
+  },
+  {
+    name: 'Godzilla',
+    year: 2014,
+    letterboxdLink: 'https://letterboxd.com/film/godzilla-2014/',
+  },
+  {
+    name: 'Kong: Skull Island',
+    year: 2017,
+    letterboxdLink: 'https://letterboxd.com/film/kong-skull-island/',
+  },
+  {
+    name: 'Godzilla: King of the Monsters',
+    year: 2019,
+    letterboxdLink: 'https://letterboxd.com/film/godzilla-king-of-the-monsters-2019/',
+  },
+  {
+    name: 'Godzilla vs. Kong',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/godzilla-vs-kong/',
+  },
+  {
+    name: 'Yes Day',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/yes-day/',
+  },
+  {
+    name: '6 Underground',
+    year: 2019,
+    letterboxdLink: 'https://letterboxd.com/film/6-underground/',
+  },
+  {
+    name: 'The Priest',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/the-priest-2021/',
+  },
+  {
+    name: 'Karnan',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/karnan-2021/',
+  },
+  {
+    name: 'Space Jam',
+    year: 1996,
+    letterboxdLink: 'https://letterboxd.com/film/space-jam/',
+  },
+  {
+    name: 'Jerry Maguire',
+    year: 1996,
+    letterboxdLink: 'https://letterboxd.com/film/jerry-maguire/',
+  },
+  {
+    name: 'Army of the Dead',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/army-of-the-dead-2021/',
+  },
+  {
+    name: 'Wrath of Man',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/wrath-of-man/',
+  },
+  {
+    name: "The Hitman's Bodyguard",
+    year: 2017,
+    letterboxdLink: 'https://letterboxd.com/film/the-hitmans-bodyguard/',
+  },
+  {
+    name: 'Kho Kho',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/kho-kho/',
+  },
+  {
+    name: 'The Godfather: Part II',
+    year: 1974,
+    letterboxdLink: 'https://letterboxd.com/film/the-godfather-part-ii/',
+  },
+  {
+    name: 'Inside Man',
+    year: 2006,
+    letterboxdLink: 'https://letterboxd.com/search/Inside%20Man/',
+  },
+  {
+    name: 'Jagame Thandhiram',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/jagame-thandhiram/',
+  },
+  {
+    name: 'The Intouchables',
+    year: 2011,
+    letterboxdLink: 'https://letterboxd.com/film/the-intouchables/',
+  },
+  {
+    name: "Harry Potter and the Philosopher's Stone",
+    year: 2001,
+    letterboxdLink: 'https://letterboxd.com/film/harry-potter-and-the-philosophers-stone/',
+  },
+  {
+    name: 'Black Widow',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/black-widow-2021/',
+  },
+  {
+    name: 'Toy Story',
+    year: 1995,
+    letterboxdLink: 'https://letterboxd.com/film/toy-story/',
+  },
+  {
+    name: 'A Man Called Ove',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/a-man-called-ove/',
+  },
+  {
+    name: 'Minari',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/minari/',
+  },
+  {
+    name: 'The Sunset Limited',
+    year: 2011,
+    letterboxdLink: 'https://letterboxd.com/film/the-sunset-limited/',
+  },
+  {
+    name: 'A Quiet Place',
+    year: 2018,
+    letterboxdLink: 'https://letterboxd.com/film/a-quiet-place-2018/',
+  },
+  {
+    name: 'A Quiet Place Part II',
+    year: 2020,
+    letterboxdLink: 'https://letterboxd.com/film/a-quiet-place-part-ii/',
+  },
+  {
+    name: 'Blade Runner 2049',
+    year: 2017,
+    letterboxdLink: 'https://letterboxd.com/film/blade-runner-2049/',
+  },
+  {
+    name: 'Penguins of Madagascar',
+    year: 2014,
+    letterboxdLink: 'https://letterboxd.com/film/penguins-of-madagascar-2014/',
+  },
+  {
+    name: 'Southside with You',
+    year: 2016,
+    letterboxdLink: 'https://letterboxd.com/film/southside-with-you/',
+  },
+  {
+    name: 'Phone Booth',
+    year: 2002,
+    letterboxdLink: 'https://letterboxd.com/film/phone-booth/',
+  },
+  {
+    name: 'Rear Window',
+    year: 1954,
+    letterboxdLink: 'https://letterboxd.com/film/rear-window/',
+  },
+  {
+    name: 'Dial M for Murder',
+    year: 1954,
+    letterboxdLink: 'https://letterboxd.com/film/dial-m-for-murder/',
+  },
+  {
+    name: 'The Suicide Squad',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/the-suicide-squad/',
+  },
+  {
+    name: 'Seven Samurai',
+    year: 1954,
+    letterboxdLink: 'https://letterboxd.com/film/seven-samurai/',
+  },
+  {
+    name: 'Vertigo',
+    year: 1958,
+    letterboxdLink: 'https://letterboxd.com/film/vertigo/',
+  },
+  {
+    name: 'Superhero Movie',
+    year: 2008,
+    letterboxdLink: 'https://letterboxd.com/film/superhero-movie/',
+  },
+  {
+    name: 'Punch-Drunk Love',
+    year: 2002,
+    letterboxdLink: 'https://letterboxd.com/film/punch-drunk-love/',
+  },
+  {
+    name: 'Blind',
+    year: 2011,
+    letterboxdLink: 'https://letterboxd.com/film/blind-2011/',
+  },
+  {
+    name: 'Psycho',
+    year: 1960,
+    letterboxdLink: 'https://letterboxd.com/film/psycho/',
+  },
+  {
+    name: 'Night at the Museum: Battle of the Smithsonian',
+    year: 2009,
+    letterboxdLink: 'https://letterboxd.com/film/night-at-the-museum-battle-of-the-smithsonian/',
+  },
+  {
+    name: 'Shershaah',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/shershaah/',
+  },
+  {
+    name: '#Home',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/home-2021-3/',
+  },
+  {
+    name: 'The Lobster',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/the-lobster/',
+  },
+  {
+    name: 'Gattaca',
+    year: 1997,
+    letterboxdLink: 'https://letterboxd.com/film/gattaca/',
+  },
+  {
+    name: 'Dikkiloona',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/dikkiloona/',
+  },
+  {
+    name: 'Begin Again',
+    year: 2013,
+    letterboxdLink: 'https://letterboxd.com/film/begin-again/',
+  },
+  {
+    name: 'Shang-Chi and the Legend of the Ten Rings',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/shang-chi-and-the-legend-of-the-ten-rings/',
+  },
+  {
+    name: 'The Mummy',
+    year: 1999,
+    letterboxdLink: 'https://letterboxd.com/film/the-mummy-1999/',
+  },
+  {
+    name: 'Free Guy',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/free-guy/',
+  },
+  {
+    name: 'The Guilty',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/the-guilty-2021/',
+  },
+  {
+    name: 'Frances Ha',
+    year: 2012,
+    letterboxdLink: 'https://letterboxd.com/film/frances-ha/',
+  },
+  {
+    name: 'Doctor',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/doctor-2021/',
+  },
+  {
+    name: 'Malignant',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/malignant-2021/',
+  },
+  {
+    name: 'Dune',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/dune-2021/',
+  },
+  {
+    name: 'Sanak',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/sanak/',
+  },
+  {
+    name: 'The Aviator',
+    year: 2004,
+    letterboxdLink: 'https://letterboxd.com/film/the-aviator/',
+  },
+  {
+    name: 'Shahjahan',
+    year: 2001,
+    letterboxdLink: 'https://letterboxd.com/film/shahjahan/',
+  },
+  {
+    name: 'Liar Liar',
+    year: 1997,
+    letterboxdLink: 'https://letterboxd.com/film/liar-liar/',
+  },
+  {
+    name: 'Bruce Almighty',
+    year: 2003,
+    letterboxdLink: 'https://letterboxd.com/film/bruce-almighty/',
+  },
+  {
+    name: 'I Am Legend',
+    year: 2007,
+    letterboxdLink: 'https://letterboxd.com/film/i-am-legend/',
   },
 ];
 
