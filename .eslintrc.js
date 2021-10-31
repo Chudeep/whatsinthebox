@@ -6,7 +6,8 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'plugin:flowtype/recommended'],
+    'plugin:flowtype/recommended',
+    'plugin:@next/next/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -14,8 +15,9 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   rules: {
     'linebreak-style': ['error', 'windows'],
+    'react/react-in-jsx-scope': 'off',
   },
 };
