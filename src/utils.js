@@ -2184,6 +2184,41 @@ const movies = [
     year: 2007,
     letterboxdLink: 'https://letterboxd.com/film/i-am-legend/',
   },
+  {
+    name: 'Tomorrowland',
+    year: 2015,
+    letterboxdLink: 'https://letterboxd.com/film/tomorrowland/',
+  },
+  {
+    name: 'No Time to Die',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/no-time-to-die-2021/',
+  },
+  {
+    name: 'tick, tick…BOOM!',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/tick-tick-boom-2021/',
+  },
+  {
+    name: 'Dhamaka',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/dhamaka-2021/',
+  },
+  {
+    name: 'Love Hard',
+    year: 2021,
+    letterboxdLink: 'https://letterboxd.com/film/love-hard/',
+  },
+  {
+    name: 'Ponyo',
+    year: 2008,
+    letterboxdLink: 'https://letterboxd.com/film/ponyo/',
+  },
+  {
+    name: 'Ghostbusters',
+    year: 1984,
+    letterboxdLink: 'https://letterboxd.com/film/ghostbusters/',
+  },
 ];
 
 export {
